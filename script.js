@@ -79,7 +79,7 @@ function addChoices(place){
 		var t = document.createTextNode(possibilities[index]);       // Create a text node
 		btn.appendChild(t);                  		// Append the text to <button>
 		btn.value = index;
-		btn.onclick = function(){userBet(this.value);}//function() {alert('Clicked!');};
+		btn.onclick = function(){userBet(this.value);}
 		place.appendChild(btn);
 	}
 }
